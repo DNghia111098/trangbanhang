@@ -73,13 +73,14 @@ function inputchange () {
     }
 }
 
-// const cartbtn = document.querySelector(".fa-times");
-// const cartshow = document.querySelector(".fa-cart-shopping");
-// cartshow.addEventListener("click",function(){
-//     console.log(cartshow)
-//     document.querySelector(".cart").style.right = "0"
-// })
-// cartbtn.addEventListener("click",function(){
-//     console.log(cartshow)
-//     document.querySelector(".cart").style.right = "-100%"
-// })
+const cartbtn = document.querySelector("#times-iconn");
+const cartshow = document.querySelector("#shopping-icon");
+cartshow.addEventListener("click",function(){
+    console.log(cartshow)
+    document.querySelector(".cart").style.right = "0"
+});
+cartbtn.addEventListener("click",function(){
+    console.log(cartshow)
+    document.querySelector(".cart").style.right = "-100%"
+});
+
