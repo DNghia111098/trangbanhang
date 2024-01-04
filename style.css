@@ -5,6 +5,9 @@
 }
 
 .container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-row: 100px 100px;
     max-width: 1200px;
     margin: auto;
 }
@@ -50,7 +53,7 @@
 .signs {
     text-align: center;
     justify-content: space-between;
-    background-color: #7d6565;
+    background-color: #a81414;
     padding: 12px;
 }
 
@@ -58,7 +61,7 @@
     width: 50%;
     margin: auto;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .cart h2 {
@@ -101,7 +104,7 @@
     background-color: rgb(221, 195, 195);
     padding: 12px 20px;
     overflow-y: scroll;
-    right: -100%; */
+    right: -100%; 
     transition: all 0.3s ease;
 }
 

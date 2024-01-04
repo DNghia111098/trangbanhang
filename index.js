@@ -73,7 +73,7 @@ function inputchange () {
     }
 }
 
-const cartbtn = document.querySelector("#times-iconn");
+const cartbtn = document.querySelector("#times-icon");
 const cartshow = document.querySelector("#shopping-icon");
 cartshow.addEventListener("click",function(){
     console.log(cartshow)
