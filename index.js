@@ -39,7 +39,7 @@ function carttotal (){
     for (let i = 0; i < cartItem.length; i++) {
         let inputValue = cartItem[i].querySelector("input").value
         let productPrice = cartItem[i].querySelector(".prices").innerHTML
-        totalA = inputValue*productPrice*1000
+        totalA = inputValue*productPrice
         totalC = totalC + totalA
         // totalD = totalC.toLocaleString('de-DE')
     }
@@ -83,4 +83,5 @@ cartbtn.addEventListener("click",function(){
     console.log(cartshow)
     document.querySelector(".cart").style.right = "-100%"
 });
+
 
